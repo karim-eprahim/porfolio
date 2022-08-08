@@ -151,6 +151,28 @@ padding:10px 70px;
     height: 2px;
     background-color: #fff;
 }
+.scroll{
+    position: fixed;
+    bottom:  20px;
+    right: 20px;
+    background-color: #149ddd;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.scroll i{
+    color:  white;
+    font-size: 20px;
+}
+.scroll:hover{
+    background-color: #47b1e3;
+}
 .bage .first-bage .my-name{
     position: absolute;
     top: 50%;
