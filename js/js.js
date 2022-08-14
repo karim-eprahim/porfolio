@@ -10,6 +10,7 @@ console.log(menu)
 
 ptn.onclick=function(){
     nav.classList.toggle("open")
+    ptn.classList.toggle("close")
 
 }
 for(let i=0; i<round.length;i++){
