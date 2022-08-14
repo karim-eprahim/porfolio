@@ -140,7 +140,7 @@ padding:10px 70px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: 0.1s;
+    transition: 0.4s;
     visibility: hidden;
 }
 .bage .first-bage .menu-ptn:hover{
@@ -150,6 +150,19 @@ padding:10px 70px;
     width: 55%;
     height: 2px;
     background-color: #fff;
+    transition: 0.4s;
+}
+.close span{
+    position: absolute;
+}
+.close span:first-child{
+    transform: rotate(45deg);
+}
+.close span:nth-child(2){
+    opacity: 0;
+}
+.close span:last-child{
+    transform: rotate(-45deg);
 }
 .scroll{
     position: fixed;
